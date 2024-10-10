@@ -161,7 +161,7 @@ header .icons a:hover {
 header .navbar a:hover {
   color: var(--red);
   text-decoration: none;
-  color: #3f10ea;
+  color: white;
 }
 
 header .icons a {
@@ -173,7 +173,7 @@ header .icons a {
 
 header .icons a:hover {
   color: var(--purple);
-  color: #3f10ea;
+  color: white;
   text-decoration: none;
  }
 
@@ -480,12 +480,12 @@ body {
 
 .tab:hover {
     background-color: rgba(0, 0, 0, 0.8); 
-    color: blue;
+    color:white;
 }
 
 
 .tab.active {
-    color: blue; 
+    color: white; 
     font-weight: bold; 
 }
 .navbar {
@@ -504,7 +504,7 @@ body {
     cursor: pointer;
     padding: 10px 20px;
     font-size: 19px;
-    color: black;
+    color: white;
     
    
     border-radius: 4px;
@@ -512,20 +512,22 @@ body {
 }
 
 .tab:hover {
-    background-color: black;
+    background-color: blueviolet;
 }
 
 .cursor {
     position: absolute;
     height: 24px;
     width: 24px;
-    background: black;
+    background:white;
     border-radius: 50%;
     pointer-events: none; 
     transition: all 0.3s ease; 
     opacity: 0; 
 }
-
+a:hover{
+    color:white
+}
 /* Features section */
 .features h2{
   font-weight: 600;
